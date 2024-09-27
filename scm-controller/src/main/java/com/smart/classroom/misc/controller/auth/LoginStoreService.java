@@ -33,22 +33,22 @@ public class LoginStoreService {
     Map<String, EditorDTO> loginEditors = new HashMap<>();
 
     public static String READER_COOKIE_KEY = "rxy";
-    public static String AUTHOR_COOKIE_KEY = "ayr";
-    public static String EDITOR_COOKIE_KEY = "eyr";
+    public static String AUTHOR_COOKIE_KEY = "axy";
+    public static String EDITOR_COOKIE_KEY = "exy";
 
-    public void storeReader(String key, ReaderDTO readerDTO) {
+    public void storeLoginReader(String key, ReaderDTO readerDTO) {
         this.loginReaders.put(key, readerDTO);
     }
 
-    public void storeEditor(String key, EditorDTO editorDTO) {
+    public void storeLoginEditor(String key, EditorDTO editorDTO) {
         this.loginEditors.put(key, editorDTO);
     }
 
-    public void clearReader(String key) {
+    public void clearLoginReader(String key) {
         this.loginReaders.remove(key);
     }
 
-    public void clearEditor(String key) {
+    public void clearLoginEditor(String key) {
         this.loginEditors.remove(key);
     }
 

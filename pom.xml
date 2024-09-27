@@ -128,11 +128,11 @@
             <!-- ********************* 外部RPC服务依赖 start********************* -->
 
             <!--来自订阅系统的接口-->
-<!--            <dependency>-->
-<!--                <groupId>com.smart.classroom</groupId>-->
-<!--                <artifactId>scs-facade</artifactId>-->
-<!--                <version>1.0.0</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.smart.classroom</groupId>
+                <artifactId>scs-facade</artifactId>
+                <version>1.0.0</version>
+            </dependency>
 
             <!-- ********************* 外部RPC服务依赖 start********************* -->
 
