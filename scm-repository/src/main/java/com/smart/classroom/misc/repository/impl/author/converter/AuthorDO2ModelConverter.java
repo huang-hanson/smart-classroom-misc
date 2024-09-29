@@ -1,6 +1,7 @@
 package com.smart.classroom.misc.repository.impl.author.converter;
 
 import com.smart.classroom.misc.domain.biz.author.model.AuthorModel;
+import com.smart.classroom.misc.repository.orm.author.AuthorDO;
 
 /**
  * 转换器

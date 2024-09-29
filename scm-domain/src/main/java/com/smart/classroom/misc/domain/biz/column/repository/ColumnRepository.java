@@ -20,7 +20,7 @@ public interface ColumnRepository {
     Pager<ColumnModel> page(ColumnPageQuery columnPageQuery);
 
 
-    ColumnModel insert(ColumnModel author);
+    ColumnModel insert(ColumnModel columnModel);
 
 
 }
