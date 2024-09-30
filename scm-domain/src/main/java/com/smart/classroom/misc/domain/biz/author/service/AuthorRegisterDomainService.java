@@ -4,6 +4,7 @@ import com.smart.classroom.misc.domain.biz.author.model.AuthorModel;
 import com.smart.classroom.misc.domain.biz.author.repository.AuthorRepository;
 import com.smart.classroom.misc.utility.exception.UtilException;
 import com.smart.classroom.misc.utility.util.CryptUtil;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.Date;
@@ -15,6 +16,7 @@ import java.util.Date;
  * @version V1.0
  * @date 2024/9/27 17:42
  **/
+@Service
 public class AuthorRegisterDomainService {
 
     @Resource
